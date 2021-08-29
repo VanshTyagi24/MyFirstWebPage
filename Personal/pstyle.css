@@ -1,0 +1,59 @@
+body{background-image: url(background.jpg);
+     background-size: cover;
+	display: grid;
+	padding: 2em;
+	width: 90%;
+	grid-template-areas: 'hdr hdr'
+	                     't1 t2'
+						 't3 t4'
+						 'img img'
+						 'last last';
+						 
+}
+.hdr{ grid-area: hdr;
+    text-align: Center;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-left: 16em;
+	padding-right: 2em;
+	color: blue;
+}
+
+.t1{
+	padding-right: 8em;
+	grid-area: t1;
+	text-align: Center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size: 20px;
+	color: grey;
+}
+.t2{padding-right: 11em;
+	grid-area: t2;
+	text-align: Center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size: 20px;
+	color: grey;
+}
+.t3{
+	padding-right: 11em;
+	grid-area: t3;
+	text-align: Center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size: 20px;
+	color: grey;
+}
+.t4{padding-right: 11em;
+	grid-area: t4;
+	text-align: Center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+	font-size: 20px;
+	color: grey;
+}
+.img{grid-area: img;
+	text-align: Center;
+}
+.last{grid-area: last;
+	text-align: Center;
+	font-size: 25px;
+    color: grey;
+}
+	

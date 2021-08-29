@@ -1,0 +1,79 @@
+/* Vansh Tyagi
+   Student ID: 991604000 */
+body{
+	
+	background-image: url(../Images/background.jpg);
+	background-color: rgba(255,255,255,0.5);
+	background-size: cover;
+	display: grid;
+	padding: 2em;
+	width: 90%;
+	grid-template-areas: 'hdr hdr hdr hdr'
+	                     'm1 m1 m2 m2'
+						 'a1 a1 a2 a2'
+						 'F1 F1 F2 F2';
+}
+
+h1{ grid-area: hdr;
+    text-align: Center;
+	font-family:"Josefin Sans",Sans-serif; font-size: 30px;
+	border: solid black 5px;
+	padding-top: 0.5em;
+	padding-bottom:0.5em ;
+}
+.m1{ grid-area: m1;
+text-align: center;
+border: solid black ;
+border-bottom: solid black 1px;
+height: 600px;
+width: 700px;
+}
+.m2{ grid-area: m2;
+text-align: center;
+border: solid black;
+border-bottom: solid black 1px;
+height: 600px;
+width: 700px;
+}
+.a1{
+	grid-area: a1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	border: solid black;
+	height: 700px;
+	width: 700px;
+}
+.a2{
+	grid-area: a2;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	border: solid black;
+	height: 700px;
+	width: 700px;
+}
+.F1{
+	grid-area: F1;
+	text-align: center;
+	border: solid black;
+	border-right: 0px;
+	
+	height: 50px;
+	width: 703px;
+}
+.F2{
+	grid-area: F2;
+	text-align: center;
+	border: solid black;
+	border-left: 0px;
+	
+	height: 50px;
+	width: 703px;
+}
+
+	
